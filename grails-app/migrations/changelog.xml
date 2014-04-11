@@ -13,5 +13,18 @@
 			</column>
 		</createTable>
 	</changeSet>
+	
+	<changeSet id="2014.04.11.12.15" author="Dgzt">
+		<dropTable tableName="people"/>
+		
+		<createTable tableName="people">
+			<column name="id" type="bigint" autoIncrement="true">
+				<constraints nullable="false" primaryKey="true" />
+			</column>
+			<column name="name" type="varchar(128)">
+				<constraints nullable="false" />
+			</column>
+		</createTable>
+	</changeSet>
 
 </databaseChangeLog>
