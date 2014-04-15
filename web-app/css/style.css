@@ -1,0 +1,60 @@
+/******************** Custom margin definitons ********************/
+.margin-left-xs,.margin-side-xs {
+    margin-left: 1pt;
+}
+
+.margin-left-sm,.margin-side-sm {
+    margin-left: 10pt;
+}
+
+.margin-left-md,.margin-side-md {
+    margin-left: 30pt;
+}
+
+.margin-left-lg,.margin-side-lg {
+    margin-left: 50pt;
+}
+
+.margin-right-xs,.margin-side-xs {
+    margin-right: 1pt;
+}
+
+.margin-right-sm,.margin-side-sm {
+    margin-right: 10pt;
+}
+
+.margin-right-md,.margin-side-md {
+    margin-right: 30pt;
+}
+
+.margin-right-lg,.margin-side-lg {
+    margin-right: 50pt;
+}
+
+.margin-top-xs {
+    margin-top: 5pt;
+}
+
+.margin-top-sm {
+    margin-top: 10pt;
+}
+
+.margin-top-md {
+    margin-top: 30pt;
+}
+
+.margin-top-lg {
+    margin-top: 50pt;
+}
+
+.margin-bot-sm {
+    margin-bottom: 10pt;
+}
+
+.margin-bot-md {
+    margin-bottom: 30pt;
+}
+
+.margin-bot-lg {
+    margin-bottom: 50pt;
+}
