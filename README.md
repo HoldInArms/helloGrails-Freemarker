@@ -1,6 +1,16 @@
 helloGrails-Freemarker
 ======================
 
-This is an example projecft using Grails and Freemarker
+This is an example CRUD project using Grails and Freemarker
 
-Liquibase upadte: grails dbm-update
+Run:
+
+	grails run-app
+	
+Stop:
+
+	grails stop-app
+
+Liquibase upadte: 
+
+	grails dbm-update
