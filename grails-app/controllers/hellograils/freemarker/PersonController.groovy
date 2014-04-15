@@ -16,8 +16,8 @@ class PersonController {
 	}
 
 	def delete() {
-		def person = Person.findById(params.id)
-		Person.deleteAll(person)
+		def person = Person.get(params.id)
+		person.delete()
 
 		redirect(action: "index")
 	}
