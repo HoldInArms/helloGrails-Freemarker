@@ -17,7 +17,7 @@
 	<br/>
 	
 	<#list person as p>
-  		<p><b>${p.id}:</b> ${p.name}</p>
+  		<p><b>${p.id}:</b> ${p.name} <a href="delete?id=${p.id}">X</a></p>
 	</#list>
 	
 	</body>
