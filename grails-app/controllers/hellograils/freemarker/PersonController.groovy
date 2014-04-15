@@ -1,6 +1,7 @@
 package hellograils.freemarker
 
 
+
 class PersonController {
 
 	def index() {
@@ -18,6 +19,19 @@ class PersonController {
 		def person = Person.findById(params.id)
 		Person.deleteAll(person)
 
+		redirect(action: "index")
+	}
+
+	def edit() {
+		def person = Person.read(params.id)
+
+		[person : person]
+	}
+
+	def update() {
+		def person = Person.findById(params.id)
+		person.name = params.name
+		person.save()
 		redirect(action: "index")
 	}
 }
